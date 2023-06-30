@@ -15,6 +15,7 @@ function HomeNavigation() {
   return (
     <Stack.Navigator screenOptions={screenOptions} initialRouteName="Home">
       <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Home2" component={Home} />
     </Stack.Navigator>
   );
 }

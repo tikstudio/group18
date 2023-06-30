@@ -12,7 +12,7 @@ const screenOptions = {
   headerRight: (p) => <HeaderRight {...p} />,
 };
 
-function HomeNavigation(props) {
+function HomeNavigation() {
   return (
     <Stack.Navigator screenOptions={screenOptions} initialRouteName="Settings">
       <Stack.Screen name="Settings" component={Settings} />
