@@ -7,6 +7,8 @@ import App from './src/App';
 import { name as appName } from './app.json';
 
 
-console.log('test');
+if(4){
+  console.log('barev');
+}
 
 AppRegistry.registerComponent(appName, () => App);
